@@ -46,8 +46,8 @@ const Navbar = ({
               href={"/"}
               className={
                 pathname === "/"
-                  ? "font-manrope text-center text-xs font-[600] uppercase tracking-[0.96px] text-[#fff]"
-                  : "font-manrope text-center text-xs font-[600] uppercase tracking-[0.96px] text-[#000]"
+                  ? "text-center font-manrope text-xs font-[600] uppercase tracking-[0.96px] text-[#fff]"
+                  : "text-center font-manrope text-xs font-[600] uppercase tracking-[0.96px] text-[#000]"
               }
             >
               Home
@@ -56,27 +56,18 @@ const Navbar = ({
               href={"/table-booking"}
               className={
                 pathname === "/"
-                  ? "font-manrope text-center text-xs font-[600] uppercase tracking-[0.96px] text-[#fff]"
-                  : "font-manrope text-center text-xs font-[600] uppercase tracking-[0.96px] text-[#000]"
+                  ? "text-center font-manrope text-xs font-[600] uppercase tracking-[0.96px] text-[#fff]"
+                  : "text-center font-manrope text-xs font-[600] uppercase tracking-[0.96px] text-[#000]"
               }
             >
               Booking
-            </Link>
-            <Link href={"/"}>
-              <Image
-                src={"/images/home/hero/logo.png"}
-                width={281}
-                height={74}
-                alt="logo"
-                className="w-20"
-              />
             </Link>
             <Link
               href={"/about-us"}
               className={
                 pathname === "/"
-                  ? "font-manrope text-center text-xs font-[600] uppercase tracking-[0.96px] text-[#fff]"
-                  : "font-manrope text-center text-xs font-[600] uppercase tracking-[0.96px] text-[#000]"
+                  ? "text-center font-manrope text-xs font-[600] uppercase tracking-[0.96px] text-[#fff]"
+                  : "text-center font-manrope text-xs font-[600] uppercase tracking-[0.96px] text-[#000]"
               }
             >
               About
@@ -86,19 +77,17 @@ const Navbar = ({
               href={"/contact"}
               className={
                 pathname === "/"
-                  ? "font-manrope text-center text-xs font-[600] uppercase tracking-[0.96px] text-[#fff]"
-                  : "font-manrope text-center text-xs font-[600] uppercase tracking-[0.96px] text-[#000]"
+                  ? "text-center font-manrope text-xs font-[600] uppercase tracking-[0.96px] text-[#fff]"
+                  : "text-center font-manrope text-xs font-[600] uppercase tracking-[0.96px] text-[#000]"
               }
             >
               Contact
             </Link>
-            <div className="ml-24 mr-24">
+            <div className="ml-52 mr-16">
               <Link href={"/menu"}>
                 <Button
                   className={
-                    pathname === "/"
-                      ? "font-sofia_sans rounded-none border border-[#fff] bg-[#fff] px-8 py-5 text-xs font-[700] uppercase text-[#000] hover:bg-[#638D39] hover:text-[#fff]"
-                      : "font-sofia_sans rounded-none border border-[#000] bg-[#000] px-8 py-5 text-xs font-[700] uppercase text-[#fff] hover:bg-[#638D39] hover:text-[#fff]"
+                    "rounded-none border border-[#A8B40A] bg-[#A8B40A] px-8 py-6 font-poppins text-sm font-[500] uppercase text-[#fff] hover:bg-[#638D39] hover:text-[#fff]"
                   }
                 >
                   View Menu

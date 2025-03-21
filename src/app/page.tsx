@@ -9,6 +9,7 @@ import Reserve from "./(section)/Reserve";
 import Follow from "./(section)/Follow";
 import Highlights from "./(section)/Highlights";
 import Levant from "./(section)/Levant";
+import Offer from "./(section)/Offer";
 
 export default function HomePage() {
   return (
@@ -20,6 +21,7 @@ export default function HomePage() {
         <Highlights />
         <Special />
         <Levant />
+        <Offer />
         <Reserve />
         <Reviews />
         <Follow />

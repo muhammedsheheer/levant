@@ -9,11 +9,12 @@ export default {
     extend: {
       fontFamily: {
         inter: ["var(--font-inter)", ...fontFamily.sans],
-        // open_sans: ["var(--font-open_sans)", ...fontFamily.sans],
-        // oooh_Baby: ["var(--font-oooh_Baby)", ...fontFamily.sans],
-        sofia_sans: ["var(--font-sofia_sans)", ...fontFamily.sans],
         manrope: ["var(--font-manrope)", ...fontFamily.sans],
         poppins: ["var(--font-poppins)", ...fontFamily.sans],
+        playfair: ["var(--font-playfair)", ...fontFamily.sans],
+        rozha: ["var(--font-rozha)", ...fontFamily.sans],
+        quicksand: ["var(--font-quicksand)", ...fontFamily.sans],
+        racing: ["var(--font-racing)", ...fontFamily.sans],
       },
       borderRadius: {
         lg: "var(--radius)",

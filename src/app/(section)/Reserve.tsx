@@ -5,22 +5,34 @@ import React from "react";
 
 const Reserve: React.FC = () => {
   return (
-    <section className="h-full w-full bg-[#fff] pt-12 md:pt-24">
+    <section className="h-full w-full bg-[#000]">
       <div className="relative h-full w-full">
         <div className="absolute bottom-0 right-1/2 w-full translate-x-1/2 px-4 md:w-[550px]">
-          <div className="flex h-[350px] w-full flex-col items-center justify-center gap-4 rounded-t-full bg-[#fff] px-6 py-14 md:h-[550px] md:w-[550px] md:py-20">
-            <h1 className="font-sofia_sans text-center text-4xl font-[600] uppercase text-[#638D39] md:text-6xl md:tracking-[-1px]">
+          <div className="flex h-[350px] w-full flex-col items-center justify-center gap-4 rounded-t-full bg-[#000] px-6 pb-14 pt-14 md:h-[600px] md:w-[550px] md:pb-14 md:pt-40">
+            <h1
+              className="font-playfair text-center text-4xl font-[400] uppercase md:text-7xl md:tracking-[-2px]"
+              style={{
+                background: "linear-gradient(180deg, #E7F714 0%, #303129 125%)",
+                backgroundClip: "text",
+                WebkitBackgroundClip: "text",
+                WebkitTextFillColor: "transparent",
+              }}
+            >
               Reserve <br />
-              Your Table
+              Table
             </h1>
-            <p className="w-full max-w-[500px] text-center font-inter text-sm font-[400] text-[#000] md:text-base">
+            <p className="w-full max-w-[500px] text-center font-inter text-sm font-[400] text-[#fff] md:text-base">
               Reserve your table and experience the true flavors of Levant. Book
               now for an unforgettable dining experience
             </p>
             <div className="md:mt-4">
-              <Link href={"/table-booking"}>
-                <Button className="font-sofia_sans rounded-none border border-[#638D39] bg-[#638D39] px-8 py-5 text-xs font-[700] uppercase text-[#fff] hover:bg-[#7bad4a] hover:text-[#fff] md:px-10 md:py-6 md:text-sm">
-                  Book Now
+              <Link href={"/menu"}>
+                <Button
+                  className={
+                    "rounded-none border border-[#A8B40A] bg-[#A8B40A] px-6 py-5 font-poppins text-sm font-[500] uppercase text-[#fff] hover:bg-[#638D39] hover:text-[#fff] md:mb-8 md:px-8 md:py-6"
+                  }
+                >
+                  View Menu
                 </Button>
               </Link>
             </div>

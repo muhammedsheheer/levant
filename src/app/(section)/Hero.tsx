@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Hero: React.FC = () => {
@@ -12,10 +13,14 @@ const Hero: React.FC = () => {
         src="/videos/bg.mp4"
       />
       <div className="absolute inset-0 bg-[rgba(0,0,0,0.43)]" />
-      <div className="relative flex h-full w-full items-center justify-center">
-        <h1 className="font-sofia_sans text-center text-9xl font-[500] uppercase text-[#638D39] md:text-[350px] md:tracking-[-40px]">
-          LEVANT
-        </h1>
+      <div className="relative mt-8 flex h-full w-full items-center justify-center md:mt-12">
+        <Image
+          src={"/images/home/hero/logob.png"}
+          width={281}
+          height={74}
+          alt="logo"
+          className="h-[300px] w-[300px] md:h-[450px] md:w-[450px]"
+        />
       </div>
     </section>
   );

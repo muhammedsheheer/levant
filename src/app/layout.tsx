@@ -10,6 +10,10 @@ import {
   Sofia_Sans_Condensed,
   Manrope,
   Poppins,
+  Playfair,
+  Racing_Sans_One,
+  Quicksand,
+  Rozha_One,
 } from "next/font/google";
 import Providers from "@/app/Providers";
 
@@ -25,24 +29,6 @@ const inter = Inter({
   weight: ["400"],
 });
 
-// const open_sans = Open_Sans({
-//   subsets: ["latin"],
-//   variable: "--font-open_sans",
-//   weight: ["400", "500", "600", "700", "800"],
-// });
-
-// const oooh_Baby = Oooh_Baby({
-//   subsets: ["latin"],
-//   variable: "--font-oooh_Baby",
-//   weight: ["400"],
-// });
-
-const sofia_sans = Sofia_Sans_Condensed({
-  subsets: ["latin"],
-  variable: "--font-sofia_sans",
-  weight: ["400", "500", "600", "700", "800"],
-});
-
 const manrope = Manrope({
   subsets: ["latin"],
   variable: "--font-manrope",
@@ -55,6 +41,30 @@ const poppins = Poppins({
   weight: ["400", "500", "600", "700", "800"],
 });
 
+const playfair = Playfair({
+  subsets: ["latin"],
+  variable: "--font-playfair",
+  weight: ["400", "500", "600", "700", "800"],
+});
+
+const racing = Racing_Sans_One({
+  subsets: ["latin"],
+  variable: "--font-racing",
+  weight: ["400"],
+});
+
+const quicksand = Quicksand({
+  subsets: ["latin"],
+  variable: "--font-quicksand",
+  weight: ["400"],
+});
+
+const rozha = Rozha_One({
+  subsets: ["latin"],
+  variable: "--font-rozha",
+  weight: ["400"],
+});
+
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
@@ -63,12 +73,14 @@ export default function RootLayout({
       <body
         className={cn(
           "theme-custom flex min-h-screen font-inter antialiased",
-          // open_sans.variable,
-          // oooh_Baby.variable,
-          sofia_sans.variable,
+
           manrope.variable,
           inter.variable,
           poppins.variable,
+          playfair.variable,
+          racing.variable,
+          quicksand.variable,
+          rozha.variable,
         )}
       >
         <Providers>{children}</Providers>
