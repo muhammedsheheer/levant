@@ -45,9 +45,7 @@ const Navbar = ({
             <Link
               href={"/"}
               className={
-                pathname === "/"
-                  ? "text-center font-manrope text-xs font-[600] uppercase tracking-[0.96px] text-[#fff]"
-                  : "text-center font-manrope text-xs font-[600] uppercase tracking-[0.96px] text-[#000]"
+                "text-center font-manrope text-xs font-[600] uppercase tracking-[0.96px] text-[#fff]"
               }
             >
               Home
@@ -55,9 +53,7 @@ const Navbar = ({
             <Link
               href={"/table-booking"}
               className={
-                pathname === "/"
-                  ? "text-center font-manrope text-xs font-[600] uppercase tracking-[0.96px] text-[#fff]"
-                  : "text-center font-manrope text-xs font-[600] uppercase tracking-[0.96px] text-[#000]"
+                "text-center font-manrope text-xs font-[600] uppercase tracking-[0.96px] text-[#fff]"
               }
             >
               Booking
@@ -65,9 +61,7 @@ const Navbar = ({
             <Link
               href={"/about-us"}
               className={
-                pathname === "/"
-                  ? "text-center font-manrope text-xs font-[600] uppercase tracking-[0.96px] text-[#fff]"
-                  : "text-center font-manrope text-xs font-[600] uppercase tracking-[0.96px] text-[#000]"
+                "text-center font-manrope text-xs font-[600] uppercase tracking-[0.96px] text-[#fff]"
               }
             >
               About
@@ -76,9 +70,7 @@ const Navbar = ({
             <Link
               href={"/contact"}
               className={
-                pathname === "/"
-                  ? "text-center font-manrope text-xs font-[600] uppercase tracking-[0.96px] text-[#fff]"
-                  : "text-center font-manrope text-xs font-[600] uppercase tracking-[0.96px] text-[#000]"
+                "text-center font-manrope text-xs font-[600] uppercase tracking-[0.96px] text-[#fff]"
               }
             >
               Contact

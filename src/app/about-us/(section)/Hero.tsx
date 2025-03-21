@@ -4,16 +4,16 @@ const Hero = ({}) => {
   return (
     <section
       id="hero"
-      className="flex w-full items-center justify-center bg-[#fff] py-6 lg:py-12"
+      className="flex w-full items-center justify-center bg-[#000] py-6 lg:py-12"
     >
       <div className="relative flex min-h-[100vh] w-full items-center justify-center">
         <div className="flex w-full flex-col gap-6 px-4 lg:flex-row lg:gap-0 lg:px-0">
           <div className="flex w-full items-center justify-center lg:w-1/2">
             <div className="mt-20 flex flex-col items-start gap-6 lg:mt-0 lg:w-8/12">
-              <h1 className="font-oswald text-5xl font-semibold leading-[66px] text-[#323232] lg:text-6xl">
+              <h1 className="font-oswald text-5xl font-semibold leading-[66px] text-[#A8B40A] lg:text-6xl">
                 Welcome to Nova <br />A Symphony of Flavors
               </h1>
-              <p className="font-manrope font-normal text-[#323232]">
+              <p className="font-manrope font-normal text-[#fff]">
                 At Nova, every dish is a masterpiece, crafted with passion and
                 precision. From handpicked ingredients to expertly curated
                 recipes, we bring you a dining experience that blends artistry
