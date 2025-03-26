@@ -5,9 +5,9 @@ import Link from "next/link";
 const JoinUs = ({}) => {
   return (
     <section
-      className="relative flex h-screen w-full items-center justify-center"
+      className="relative flex h-screen w-full items-center justify-center opacity-90"
       style={{
-        backgroundImage: `url('/images/about-us/image4.jpg')`,
+        backgroundImage: `url('/images/about-us/image7.jpg')`,
         backgroundSize: "cover",
       }}
     >
@@ -16,15 +16,17 @@ const JoinUs = ({}) => {
           <h1 className="font-oswald max-w-[500px] text-center text-5xl leading-[60px] text-[#fff]">
             Join Us for an
             <br />
-            Unforgettable Meal
+            Unforgettable Feast
           </h1>
           <p className="max-w-[450px] text-center font-[600] leading-[160%] text-[#ffff]">
-            Whether it`s an intimate dinner or a grand celebration, Nova invites
-            you to indulge in an exceptional culinary journey. From expertly
-            crafted flavors to hand-selected ingredients, every dish reflects
-            our passion for excellence. Immerse yourself in a dining experience
-            where innovation meets tradition, and every bite tells a story.
+            Whether it`s a cozy dinner or a grand gathering, Levant invites you
+            to embark on an extraordinary culinary journey. From authentic
+            Middle Eastern flavors to hand-selected ingredients, every dish is a
+            tribute to our rich heritage and passion for excellence. Immerse
+            yourself in an experience where tradition meets innovation, and
+            every bite is a celebration of taste and culture.
           </p>
+
           <Link href={"/table-booking"}>
             <Button
               variant="outline"

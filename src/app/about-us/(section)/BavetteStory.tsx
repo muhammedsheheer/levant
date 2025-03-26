@@ -5,7 +5,7 @@ const BavetteStory = ({}) => {
     <section className="relative flex h-full w-full items-center justify-center bg-[#000] p-4 lg:py-16">
       <div className="flex h-full w-full flex-col items-center justify-center gap-11 bg-[#000]">
         <h2 className="font-oswald text-center text-8xl text-[#A8B40A] md:left-[15%] md:text-8xl">
-          The Nova
+          The Levant
           <br />
           Story
         </h2>
@@ -26,18 +26,22 @@ const BavetteStory = ({}) => {
               to Perfection{" "}
             </h1>
             <p className="max-w-[450px] text-center font-light leading-[160%] text-[#fff] md:text-start">
-              What began as a vision—to redefine the dining experience—has
-              evolved into Nova, a culinary destination where flavors come to
-              life. Founded with a deep passion for excellence, Nova was born
-              from a desire to craft dishes that are more than just meals—they
-              are experiences. <br /> From our humble beginnings to becoming a
-              haven for food lovers, our commitment to quality, innovation, and
-              hospitality has never wavered. Every ingredient is hand-selected,
-              every dish is prepared with precision, and every bite is a
-              celebration of taste. <br /> At Nova, we don’t just serve food—we
-              create unforgettable moments. As we continue to grow, our mission
-              remains the same: to blend artistry with flavor and offer an
-              extraordinary dining experience like no other.
+              What began as a vision—to bring the soul of Middle Eastern and
+              Mediterranean cuisine to life—has evolved into Levant, a culinary
+              destination where tradition meets innovation. Founded with a deep
+              passion for authenticity, Levant was born from the desire to
+              create dishes that are more than just meals—they are experiences.
+              <br />
+              From our humble beginnings to becoming a haven for food lovers,
+              our commitment to quality, rich flavors, and warm hospitality has
+              never wavered. Every ingredient is carefully sourced, every spice
+              tells a story, and every dish is a tribute to the culinary
+              heritage we celebrate.
+              <br />
+              At Levant, we don`t just serve food—we craft unforgettable
+              moments. As we continue to grow, our mission remains the same: to
+              blend tradition with creativity and offer an extraordinary dining
+              experience that honors the essence of Middle Eastern flavors.
             </p>
           </div>
         </div>

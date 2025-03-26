@@ -91,13 +91,13 @@ const Contact = ({}) => {
                   </div>
                 </div>
                 <div className="flex flex-col gap-4">
-                  <Link href={""} target="_blank">
+                  <Link href={"https://g.co/kgs/kfvqUBt"} target="_blank">
                     <p className="text-[#fff]">
-                      2 Kendal Ave, London W3 0PA,
-                      <br /> United Kingdom
+                      9 Barlow Moor Rd, Didsbury, Manchester
+                      <br /> M20 6TN, United Kingdom
                     </p>
                   </Link>
-                  <Link href={""} target="_blank">
+                  <Link href={"https://g.co/kgs/kfvqUBt"} target="_blank">
                     <p className="flex items-center gap-2 text-sm text-[#fff]">
                       <span>Get Direction</span>
                       <ArrowRight className="text-[#fff]" />
@@ -122,19 +122,27 @@ const Contact = ({}) => {
                   </div>
                 </div>
                 <div className="flex flex-col gap-4">
-                  <Link href="tel:+442035001710" className="text-[#fff]">
-                    +44 20 3500 1710{" "}
+                  <Link href="tel:+01614230494" className="text-[#fff]">
+                    0161 423 04 94{" "}
                   </Link>
                 </div>
               </div>
               <div className="flex items-center justify-start gap-4">
-                <Link href={""} target="_blank">
+                <Link
+                  href={"https://www.instagram.com/levantelixirofco/"}
+                  target="_blank"
+                >
                   <Icons.instagram className="text-[#fff]" />
                 </Link>
-                <Link href={""} target="_blank">
+                <Link
+                  href={
+                    "https://www.tripadvisor.in/Restaurant_Review-g187069-d32861312-Reviews-Levant_Elixir_Of_Co_existence-Manchester_Greater_Manchester_England.html"
+                  }
+                  target="_blank"
+                >
                   <Icons.unknown className="text-[#fff]" />
                 </Link>
-                <Link href={""} target="_blank">
+                <Link href={"https://g.co/kgs/kfvqUBt"} target="_blank">
                   <Icons.google className="text-[#fff]" />
                 </Link>
                 {/* <Link href='https://www.facebook.com/Istanbulwoolton/'>
@@ -232,7 +240,7 @@ const Contact = ({}) => {
           </div>
         </div>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.3518235577612!2d-0.282350023528942!3d51.525106571817304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487611828d8d4ff7%3A0xd0a626f080e14845!2sNova%20Park%20Royal!5e0!3m2!1sen!2sin!4v1740603246277!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2260.19196832903!2d-2.2318719!3d53.4175839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb3df9225b6c3%3A0x365fe3576a0f6abb!2sLevant%20Elixir%20of%20Co-Existence%20Restaurant!5e1!3m2!1sen!2sin!4v1742976588803!5m2!1sen!2sin"
           style={{ border: 0 }}
           allowFullScreen
           loading="lazy"
@@ -243,7 +251,7 @@ const Contact = ({}) => {
       <div className="flex w-full overflow-hidden">
         <Image
           className="h-full w-full object-cover lg:h-[500px]"
-          src="/images/about-us/image5.jpeg"
+          src="/images/about-us/image4.jpg"
           alt="bottom"
           width={966}
           height={96}

@@ -29,40 +29,52 @@ const Footer = ({}) => {
                     <Link
                       className="flex flex-col text-center font-poppins text-xs font-[500] uppercase text-[#fff] md:text-start"
                       target="_blank"
-                      href={""}
+                      href={"https://g.co/kgs/34ojPbT"}
                     >
-                      9 Barlow Moor Rd, Didsbury, <br /> M20 6TN MANCHESTER
+                      9 Barlow Moor Rd, Didsbury, Manchester
+                      <br /> M20 6TN MANCHESTER
                     </Link>
                   </span>
                   <span>
                     <Link
                       className="font-poppins text-xs font-[500] uppercase text-[#fff]"
-                      href={""}
+                      href={"tel:+01614230494"}
                     >
-                      +0161 423 04 94{" "}
+                      0161 423 04 94{" "}
                     </Link>
                   </span>
                   <span>
                     <Link
                       className="font-poppins text-xs font-[500] uppercase text-[#fff]"
-                      href={""}
+                      href={"mailto:levant-restaurant.uk"}
                     >
-                      levante21ltd@gmail.com{" "}
+                      levant-restaurant.uk
                     </Link>
                   </span>
                 </div>
               </div>
               <div className="flex flex-row items-center gap-2 md:gap-4">
-                <Link href={""} target="_blank">
+                <Link
+                  href={"https://www.instagram.com/levantelixirofco/"}
+                  target="_blank"
+                >
                   <Icons.instagram className="text-[#fff]" />
                 </Link>
-                <Link href={""} target="_blank">
+                <Link
+                  href={
+                    "https://www.tripadvisor.in/Restaurant_Review-g187069-d32861312-Reviews-Levant_Elixir_Of_Co_existence-Manchester_Greater_Manchester_England.html"
+                  }
+                  target="_blank"
+                >
                   <Icons.unknown className="text-[#fff]" />
                 </Link>
-                <Link href={""} target="_blank">
+                <Link href={"https://g.co/kgs/kfvqUBt"} target="_blank">
                   <Icons.google className="text-[#fff]" />
                 </Link>
-                <Link href={""} target="_blank">
+                <Link
+                  href={"https://www.facebook.com/levantelixirofco"}
+                  target="_blank"
+                >
                   <Icons.facebook className="text-[#fff]" />
                 </Link>
               </div>
@@ -152,7 +164,7 @@ const Footer = ({}) => {
         <div className="flex flex-col gap-4">
           <div className="h-full w-full border-b-[1px] border-b-[#fff]" />
           <div className="flex flex-col items-center justify-center gap-1 md:flex-row md:items-start md:justify-between">
-            <Link href={""} target="_blank">
+            <Link href={"https://foodo.ai/"} target="_blank">
               <span className="font-open_sans pb-6 text-xs font-[400] lowercase tracking-[1px] text-[#fff]">
                 Powerd by fodo{" "}
               </span>

@@ -11,25 +11,25 @@ const Follow: React.FC = () => {
         </div>
         <div className="flex flex-col">
           <div className="flex flex-row overflow-hidden">
-            <h1 className="font-playfair text-center text-5xl font-[500] uppercase text-[#A8B40A] md:text-8xl">
+            <h1 className="text-center font-playfair text-5xl font-[500] uppercase text-[#A8B40A] md:text-8xl">
               LEVANT{" "}
             </h1>
-            <h1 className="font-playfair text-center text-5xl font-[500] uppercase text-[#A8B40A] md:text-8xl">
+            <h1 className="text-center font-playfair text-5xl font-[500] uppercase text-[#A8B40A] md:text-8xl">
               LEVANT{" "}
             </h1>
-            <h1 className="font-playfair text-center text-5xl font-[500] uppercase text-[#A8B40A] md:text-8xl">
+            <h1 className="text-center font-playfair text-5xl font-[500] uppercase text-[#A8B40A] md:text-8xl">
               LEVANT{" "}
             </h1>
-            <h1 className="font-playfair text-center text-5xl font-[500] uppercase text-[#A8B40A] md:text-8xl">
+            <h1 className="text-center font-playfair text-5xl font-[500] uppercase text-[#A8B40A] md:text-8xl">
               LEVANT{" "}
             </h1>
-            <h1 className="font-playfair text-center text-5xl font-[500] uppercase text-[#A8B40A] md:text-8xl">
+            <h1 className="text-center font-playfair text-5xl font-[500] uppercase text-[#A8B40A] md:text-8xl">
               LEVANT{" "}
             </h1>
-            <h1 className="font-playfair text-center text-5xl font-[500] uppercase text-[#A8B40A] md:text-8xl">
+            <h1 className="text-center font-playfair text-5xl font-[500] uppercase text-[#A8B40A] md:text-8xl">
               LEVANT{" "}
             </h1>
-            <h1 className="font-playfair text-center text-5xl font-[500] uppercase text-[#A8B40A] md:text-8xl">
+            <h1 className="text-center font-playfair text-5xl font-[500] uppercase text-[#A8B40A] md:text-8xl">
               LEVANT{" "}
             </h1>
           </div>
@@ -73,7 +73,10 @@ const Follow: React.FC = () => {
                   Us
                 </h1>
               </div>
-              <Link href={""} target="_blank">
+              <Link
+                href={"https://www.instagram.com/levantelixirofco/"}
+                target="_blank"
+              >
                 <h1 className="font-playfair text-4xl font-[500] uppercase text-[#fff] md:text-6xl md:tracking-[-5px]">
                   @levantelixirofco
                 </h1>
