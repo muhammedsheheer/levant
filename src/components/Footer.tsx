@@ -46,7 +46,7 @@ const Footer = ({}) => {
                   <span>
                     <Link
                       className="font-poppins text-xs font-[500] uppercase text-[#fff]"
-                      href={"mailto:levant-restaurant.uk"}
+                      href={"mailto:info@levant-restaurant.uk"}
                     >
                       levant-restaurant.uk
                     </Link>
