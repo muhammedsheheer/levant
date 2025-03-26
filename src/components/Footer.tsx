@@ -99,12 +99,12 @@ const Footer = ({}) => {
                 About
               </Link> */}
 
-              <Link
+              {/* <Link
                 href={""}
                 className="font-poppins text-xs font-[700] uppercase tracking-[2.4px] text-[#fff]"
               >
                 Products
-              </Link>
+              </Link> */}
               <Link
                 href={"/table-booking"}
                 className="font-poppins text-xs font-[700] uppercase tracking-[2.4px] text-[#fff]"
