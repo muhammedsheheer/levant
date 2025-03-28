@@ -83,7 +83,7 @@ const Reviews = ({}) => {
     <section className="relative flex h-full w-full justify-center bg-[#000] pb-10">
       <div className="flex h-full w-full flex-col items-center justify-center gap-4 rounded-t-full py-12 md:py-44 md:pt-24">
         <div className="flex h-full w-full flex-col items-center justify-center gap-2 lg:gap-4">
-          <div className="flex flex-col items-center justify-center gap-2">
+          <div className="flex flex-col items-center justify-center gap-2 md:pb-6">
             <h6
               className="text-center font-playfair text-5xl font-[400] uppercase md:text-7xl md:tracking-[-2px]"
               style={{
@@ -104,7 +104,7 @@ const Reviews = ({}) => {
                 {reviews.map((review, index) => (
                   <CarouselItem
                     key={index}
-                    className={`flex w-full basis-full flex-col items-center justify-center gap-6 rounded-none py-6 md:basis-1/3 md:py-12 ${index % 2 === 0 ? "bg-[#A8B40A] text-[#fff]" : "bg-[#D9D9D9] text-[#000]"}`}
+                    className={`flex w-full basis-full flex-col items-center justify-center gap-6 rounded-none py-6 md:basis-1/4 md:py-12 ${index % 2 === 0 ? "bg-[#A8B40A] text-[#fff]" : "bg-[#D9D9D9] text-[#000]"}`}
                   >
                     <div className="flex flex-col gap-6 bg-transparent px-6 pb-4">
                       <div className="flex w-full justify-center">
@@ -121,7 +121,7 @@ const Reviews = ({}) => {
                         <p
                           className={`line-clamp-6 w-full max-w-[350px] text-center font-poppins text-sm font-[500] uppercase tracking-[2px] md:px-4 lg:leading-[120%] ${index % 2 === 0 ? "text-[#fff]" : "text-[#000]"}`}
                         >
-                          {review.text}
+                          {review.text.text}
                         </p>
                       </div>
                     </div>
