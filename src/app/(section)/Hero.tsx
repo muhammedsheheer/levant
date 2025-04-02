@@ -11,6 +11,7 @@ const Hero: React.FC = () => {
         muted
         playsInline
         src="/videos/bg.mp4"
+        poster="/images/levant.png"
       />
       <div className="absolute inset-0 bg-[rgba(0,0,0,0.43)]" />
       <div className="relative mt-8 flex h-full w-full items-center justify-center md:mt-12">
