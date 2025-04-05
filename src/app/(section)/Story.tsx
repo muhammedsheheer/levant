@@ -5,7 +5,7 @@ import React from "react";
 
 const Story: React.FC = () => {
   return (
-    <section className="relative h-full w-full bg-[#000] bg-[url('/images/home/hero/bg.png')] bg-cover bg-center bg-no-repeat py-12 md:py-40">
+    <section className="relative h-full w-full bg-[#000] bg-[url('/images/home/hero/bg.png')] bg-cover bg-center bg-no-repeat py-32 md:py-40">
       <div className="flex flex-col items-center justify-center gap-6 md:gap-10">
         <h1
           className="font-cinzel text-center text-4xl font-[400] uppercase md:text-7xl md:tracking-[-2px]"
