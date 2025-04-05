@@ -80,7 +80,7 @@ import Image from "next/image";
 const Reviews = ({}) => {
   const { reviews } = useRestaurant();
   return (
-    <section className="relative flex h-full w-full justify-center bg-[#000] pb-10">
+    <section className="relative flex h-full w-full justify-center bg-[#000] bg-[url('/images/home/hero/bg.png')] bg-cover bg-center bg-no-repeat pb-10">
       <div className="flex h-full w-full flex-col items-center justify-center gap-4 rounded-t-full py-12 md:py-44 md:pt-24">
         <div className="flex h-full w-full flex-col items-center justify-center gap-2 lg:gap-4">
           <div className="flex flex-col items-center justify-center gap-2 md:pb-6">

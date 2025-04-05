@@ -40,7 +40,17 @@ const Navbar = ({
       {/*big screen */}
       <div className="hidden px-4 md:block md:px-12">
         <div className="flex flex-row items-center justify-between">
-          <div></div>
+          <div>
+            <Link href={"/"}>
+              <Image
+                src={"/images/home/hero/logo.png"}
+                width={281}
+                height={74}
+                alt="logo"
+                className="w-20"
+              />
+            </Link>
+          </div>
           <div className="flex flex-row items-center justify-center gap-20">
             <Link
               href={"/"}

@@ -15,6 +15,7 @@ export default {
         rozha: ["var(--font-rozha)", ...fontFamily.sans],
         quicksand: ["var(--font-quicksand)", ...fontFamily.sans],
         racing: ["var(--font-racing)", ...fontFamily.sans],
+        cinzel: ["var(--font-cinzel)", ...fontFamily.sans],
       },
       borderRadius: {
         lg: "var(--radius)",

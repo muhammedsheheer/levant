@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
         poster="/images/levant.png"
       />
       <div className="absolute inset-0 bg-[rgba(0,0,0,0.43)]" />
-      <div className="relative mt-8 flex h-full w-full items-center justify-center md:mt-12">
+      {/* <div className="relative mt-8 flex h-full w-full items-center justify-center md:mt-12">
         <Image
           src={"/images/home/hero/logob.png"}
           width={281}
@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
           alt="logo"
           className="h-[300px] w-[300px] md:h-[450px] md:w-[450px]"
         />
-      </div>
+      </div> */}
     </section>
   );
 };

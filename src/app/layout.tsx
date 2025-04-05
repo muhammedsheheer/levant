@@ -14,6 +14,7 @@ import {
   Racing_Sans_One,
   Quicksand,
   Rozha_One,
+  Cinzel_Decorative,
 } from "next/font/google";
 import Providers from "@/app/Providers";
 
@@ -39,6 +40,12 @@ const poppins = Poppins({
   subsets: ["latin"],
   variable: "--font-poppins",
   weight: ["400", "500", "600", "700", "800"],
+});
+
+const cinzel = Cinzel_Decorative({
+  subsets: ["latin"],
+  variable: "--font-cinzel",
+  weight: ["400"],
 });
 
 const playfair = Playfair({
@@ -81,6 +88,7 @@ export default function RootLayout({
           racing.variable,
           quicksand.variable,
           rozha.variable,
+          cinzel.variable,
         )}
       >
         <Providers>{children}</Providers>

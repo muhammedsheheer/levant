@@ -10,29 +10,6 @@ const Follow: React.FC = () => {
           <div></div>
         </div>
         <div className="flex flex-col">
-          <div className="flex flex-row overflow-hidden">
-            <h1 className="text-center font-playfair text-5xl font-[500] uppercase text-[#A8B40A] md:text-8xl">
-              LEVANT{" "}
-            </h1>
-            <h1 className="text-center font-playfair text-5xl font-[500] uppercase text-[#A8B40A] md:text-8xl">
-              LEVANT{" "}
-            </h1>
-            <h1 className="text-center font-playfair text-5xl font-[500] uppercase text-[#A8B40A] md:text-8xl">
-              LEVANT{" "}
-            </h1>
-            <h1 className="text-center font-playfair text-5xl font-[500] uppercase text-[#A8B40A] md:text-8xl">
-              LEVANT{" "}
-            </h1>
-            <h1 className="text-center font-playfair text-5xl font-[500] uppercase text-[#A8B40A] md:text-8xl">
-              LEVANT{" "}
-            </h1>
-            <h1 className="text-center font-playfair text-5xl font-[500] uppercase text-[#A8B40A] md:text-8xl">
-              LEVANT{" "}
-            </h1>
-            <h1 className="text-center font-playfair text-5xl font-[500] uppercase text-[#A8B40A] md:text-8xl">
-              LEVANT{" "}
-            </h1>
-          </div>
           <div className="flex w-full flex-col bg-[#000] md:flex-row">
             <div className="grid w-full grid-cols-1 gap-4 bg-[#000] px-4 md:w-[65%] md:grid-cols-2 md:px-0">
               <Image
@@ -67,7 +44,7 @@ const Follow: React.FC = () => {
             <div className="relative flex w-full flex-col items-center justify-center gap-2 bg-[#A8B40A] py-8 md:w-[35%] md:py-0">
               <div className="-gap-2 flex flex-col">
                 <h1 className="font-playfair text-7xl font-[500] uppercase text-[#fff] md:text-[150px] md:tracking-[-10px]">
-                  SCROLL
+                  Follow
                 </h1>
                 <h1 className="font-playfair text-7xl font-[500] uppercase text-[#fff] md:-mt-6 md:text-9xl md:tracking-[-10px]">
                   Us
