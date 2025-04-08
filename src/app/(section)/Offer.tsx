@@ -5,7 +5,7 @@ const Offer: React.FC = () => {
     <section className="h-full w-full bg-[#000] bg-[url('/images/home/hero/bg.png')] bg-cover bg-center bg-no-repeat px-4 pb-8 pt-12 md:pb-10 md:pt-24">
       <div className="flex flex-col items-center justify-center gap-6 md:gap-12">
         <div className="flex flex-col items-center justify-center">
-          <h1 className="text-center font-playfair text-4xl font-[400] uppercase text-[#fff] md:text-6xl md:tracking-[-2px]">
+          <h1 className="text-center font-cinzel text-4xl font-[400] uppercase text-[#fff] md:text-6xl md:tracking-[-2px]">
             Special offer
           </h1>
         </div>

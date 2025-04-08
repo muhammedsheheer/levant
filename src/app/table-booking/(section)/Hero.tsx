@@ -6,7 +6,7 @@ const Hero = ({}) => {
     >
       <div className="absolute inset-0 bg-black/60"></div>
 
-      <h1 className="font-oswald relative z-10 w-full text-center text-[4.75rem] leading-[80%] text-[#A8B40A]">
+      <h1 className="relative z-10 w-full text-center font-cinzel text-[4.75rem] leading-[80%] text-[#A8B40A]">
         Table Booking
       </h1>
     </section>

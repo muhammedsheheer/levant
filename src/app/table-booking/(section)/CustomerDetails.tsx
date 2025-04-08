@@ -44,8 +44,8 @@ const CustomerDetails: FC<CustomerDetailsProps> = ({
       <div className="flex w-full flex-col gap-3 bg-primary/30 px-12 py-6">
         <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
           <div className="flex w-full flex-col gap-2">
-            <p className="text-semibold text-[#fff]">Date & Time</p>
-            <p className="font-light text-[#fff]">
+            <p className="text-semibold font-cinzel text-[#fff]">Date & Time</p>
+            <p className="font-cinzel font-light text-[#fff]">
               {form.watch("date")
                 ? format(form.watch("date"), "EEE MMM dd yyyy")
                 : "No date selected"}
@@ -53,8 +53,10 @@ const CustomerDetails: FC<CustomerDetailsProps> = ({
             </p>
           </div>
           <div className="flex w-full flex-col gap-2">
-            <p className="text-semibold text-[#fff]">No of Guests</p>
-            <p className="font-light text-[#fff]">
+            <p className="text-semibold font-cinzel text-[#fff]">
+              No of Guests
+            </p>
+            <p className="font-cinzel font-light text-[#fff]">
               {form.watch("guests")
                 ? `${form.watch("guests")} Guests`
                 : "no number of guests selected"}
@@ -62,7 +64,7 @@ const CustomerDetails: FC<CustomerDetailsProps> = ({
           </div>
           <div className="flex w-full items-center md:justify-center">
             <p
-              className="w-fit cursor-pointer border-b-[1px] border-b-[black] text-[#fff]"
+              className="w-fit cursor-pointer border-b-[1px] border-b-[black] font-cinzel text-[#fff]"
               onClick={() => setpage(0)}
             >
               Change Selection
@@ -70,7 +72,7 @@ const CustomerDetails: FC<CustomerDetailsProps> = ({
           </div>
         </div>
       </div>
-      <p className="w-full text-2xl font-semibold text-[#fff]">
+      <p className="w-full font-cinzel text-2xl font-semibold text-[#fff]">
         Complete your request
       </p>
       <div className="grid w-full grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -79,11 +81,13 @@ const CustomerDetails: FC<CustomerDetailsProps> = ({
           name="name"
           render={({ field }) => (
             <FormItem>
-              <FormLabel className="text-[#fff]">Your Name</FormLabel>
+              <FormLabel className="font-cinzel text-[#fff]">
+                Your Name
+              </FormLabel>
               <FormControl>
                 <Input
                   {...field}
-                  className="h-12 border-[#A8B40A] bg-transparent text-[#fff]"
+                  className="h-12 border-[#A8B40A] bg-transparent font-cinzel text-[#fff]"
                 />
               </FormControl>
               <FormMessage />
@@ -96,12 +100,14 @@ const CustomerDetails: FC<CustomerDetailsProps> = ({
           name="email"
           render={({ field }) => (
             <FormItem>
-              <FormLabel className="text-[#fff]">Your Email</FormLabel>
+              <FormLabel className="font-cinzel text-[#fff]">
+                Your Email
+              </FormLabel>
               <FormControl>
                 <Input
                   {...field}
                   type="email"
-                  className="h-12 border-[#A8B40A] bg-transparent text-[#fff]"
+                  className="h-12 border-[#A8B40A] bg-transparent font-cinzel text-[#fff]"
                 />
               </FormControl>
               <FormMessage />
@@ -114,12 +120,14 @@ const CustomerDetails: FC<CustomerDetailsProps> = ({
           name="phone"
           render={({ field }) => (
             <FormItem>
-              <FormLabel className="text-[#fff]">Phone Number</FormLabel>
+              <FormLabel className="font-cinzel text-[#fff]">
+                Phone Number
+              </FormLabel>
               <FormControl>
                 <Input
                   {...field}
                   type="tel"
-                  className="h-12 border-[#A8B40A] bg-transparent text-[#fff]"
+                  className="h-12 border-[#A8B40A] bg-transparent font-cinzel text-[#fff]"
                 />
               </FormControl>
               <FormMessage />
@@ -131,14 +139,14 @@ const CustomerDetails: FC<CustomerDetailsProps> = ({
           name="place"
           render={({ field }) => (
             <FormItem>
-              <FormLabel className="text-[#fff]">Place</FormLabel>
+              <FormLabel className="font-cinzel text-[#fff]">Place</FormLabel>
               <Select onValueChange={field.onChange} defaultValue={field.value}>
                 <FormControl>
-                  <SelectTrigger className="h-12 border-[#A8B40A] bg-transparent text-[#fff]">
+                  <SelectTrigger className="h-12 border-[#A8B40A] bg-transparent font-cinzel text-[#fff]">
                     <SelectValue placeholder="Select Booking Place" />
                   </SelectTrigger>
                 </FormControl>
-                <SelectContent className="max-h-[300px] text-[#fff]">
+                <SelectContent className="max-h-[300px] font-cinzel text-[#fff]">
                   <SelectItem value="Terrace">Terrace</SelectItem>
                   <SelectItem value="Restaurent">Restaurent</SelectItem>
                 </SelectContent>
@@ -154,11 +162,13 @@ const CustomerDetails: FC<CustomerDetailsProps> = ({
         name="request"
         render={({ field }) => (
           <FormItem className="w-full">
-            <FormLabel className="text-[#fff]">Special Request</FormLabel>
+            <FormLabel className="font-cinzel text-[#fff]">
+              Special Request
+            </FormLabel>
             <FormControl>
               <Textarea
                 {...field}
-                className="min-h-[100px] border-[#A8B40A] bg-transparent text-[#fff] placeholder:text-[#fff]"
+                className="min-h-[100px] border-[#A8B40A] bg-transparent font-cinzel text-[#fff] placeholder:text-[#fff]"
                 placeholder="Enter any special requests or dietary requirements..."
               />
             </FormControl>
@@ -169,7 +179,7 @@ const CustomerDetails: FC<CustomerDetailsProps> = ({
       <div className="flex w-full justify-center">
         <Button
           type="submit"
-          className="w-fit bg-[#A8B40A] px-6 py-6 text-[#fff] hover:bg-[#7bad4a] md:float-right md:w-fit"
+          className="w-fit bg-[#A8B40A] px-6 py-6 font-cinzel text-[#fff] hover:bg-[#7bad4a] md:float-right md:w-fit"
           disabled={bookTableMutation.isPending}
         >
           {bookTableMutation.isPending ? "Booking..." : "Book A Table"}

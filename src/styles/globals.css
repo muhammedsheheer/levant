@@ -92,14 +92,14 @@
 
   /* menu Checkout Start */
 
-  --menubackground: 194, 38%, 9%;
+  --menubackground: 51.82, 26.83%, 83.92%;
   --menuforeground: 0, 0%, 0%;
   --menuprimary: 37, 36%, 65%;
   --menusecondary: 0, 2%, 97%;
   --buttonhover: 37, 32%, 50%;
-  --itembackground: 194, 37%, 7%;
+  --itembackground: 51.82, 26.83%, 83.92%;
   --menuprimaryforeground: 39, 100%, 93%;
-  --menusecondaryforeground: 0, 0%, 20%;
+  --menusecondaryforeground: 0, 0%, 0%;
   --itemdescription: 0, 2%, 48%;
   --itembutton: 37, 36%, 65%;
   --buttondisabled: 0, 0%, 29%;

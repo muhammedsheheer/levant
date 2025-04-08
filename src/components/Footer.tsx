@@ -27,7 +27,7 @@ const Footer = ({}) => {
                 <div className="flex flex-col items-center md:items-start">
                   <span>
                     <Link
-                      className="flex flex-col text-center font-poppins text-xs font-[500] uppercase text-[#fff] md:text-start"
+                      className="flex flex-col text-center font-cinzel text-xs font-[500] uppercase text-[#fff] md:text-start"
                       target="_blank"
                       href={"https://g.co/kgs/34ojPbT"}
                     >
@@ -37,7 +37,7 @@ const Footer = ({}) => {
                   </span>
                   <span>
                     <Link
-                      className="font-poppins text-xs font-[500] uppercase text-[#fff]"
+                      className="font-cinzel text-xs font-[500] uppercase text-[#fff]"
                       href={"tel:+01614230494"}
                     >
                       0161 423 04 94{" "}
@@ -45,7 +45,7 @@ const Footer = ({}) => {
                   </span>
                   <span>
                     <Link
-                      className="font-poppins text-xs font-[500] uppercase text-[#fff]"
+                      className="font-cinzel text-xs font-[500] uppercase text-[#fff]"
                       href={"mailto:info@levant-restaurant.uk"}
                     >
                       levant-restaurant.uk
@@ -82,38 +82,38 @@ const Footer = ({}) => {
             <div className="flex flex-col items-center justify-center gap-4 md:mt-24 md:items-start md:gap-6">
               <Link
                 href={"/"}
-                className="font-poppins text-xs font-[700] uppercase tracking-[2.4px] text-[#fff]"
+                className="font-cinzel text-xs font-[700] uppercase tracking-[2.4px] text-[#fff]"
               >
                 Home
               </Link>
               <Link
                 href={"/menu"}
-                className="font-poppins text-xs font-[700] uppercase tracking-[2.4px] text-[#fff]"
+                className="font-cinzel text-xs font-[700] uppercase tracking-[2.4px] text-[#fff]"
               >
                 Menu
               </Link>
               {/* <Link
                 href={"/about-us"}
-                className="font-poppins text-xs font-[700] uppercase tracking-[2.4px] text-[#fff]"
+                className="font-cinzel text-xs font-[700] uppercase tracking-[2.4px] text-[#fff]"
               >
                 About
               </Link> */}
 
               {/* <Link
                 href={""}
-                className="font-poppins text-xs font-[700] uppercase tracking-[2.4px] text-[#fff]"
+                className="font-cinzel text-xs font-[700] uppercase tracking-[2.4px] text-[#fff]"
               >
                 Products
               </Link> */}
               <Link
                 href={"/table-booking"}
-                className="font-poppins text-xs font-[700] uppercase tracking-[2.4px] text-[#fff]"
+                className="font-cinzel text-xs font-[700] uppercase tracking-[2.4px] text-[#fff]"
               >
                 Reservation
               </Link>
               <Link
                 href={"/contact"}
-                className="font-poppins text-xs font-[700] uppercase tracking-[2.4px] text-[#fff]"
+                className="font-cinzel text-xs font-[700] uppercase tracking-[2.4px] text-[#fff]"
               >
                 Contact Us
               </Link>
@@ -122,37 +122,37 @@ const Footer = ({}) => {
 
           {/* sub second  div */}
           <div className="flex w-full flex-col items-center gap-2 md:w-[400px] md:items-start md:pt-16">
-            <h6 className="font-poppins text-sm font-[700] uppercase tracking-[2.2px] text-[#fff] md:pb-4">
+            <h6 className="font-cinzel text-sm font-[700] uppercase tracking-[2.2px] text-[#fff] md:pb-4">
               Opening Hours
             </h6>
             <div className="flex flex-col items-center gap-4 md:items-start md:gap-6">
               <div className="h-full w-full border-b-[1px] border-b-[#fff]" />
 
               <div className="flex w-full flex-row gap-4 md:w-[400px] md:justify-between">
-                <span className="font-poppins text-sm font-[700] uppercase tracking-[1.96px] text-[#fff]">
+                <span className="font-cinzel text-sm font-[700] uppercase tracking-[1.96px] text-[#fff]">
                   tuesday - Thursday{" "}
                 </span>
-                <span className="font-poppins text-sm font-[700] uppercase tracking-[1.96px] text-[#fff]">
+                <span className="font-cinzel text-sm font-[700] uppercase tracking-[1.96px] text-[#fff]">
                   12 AM - 10 PM{" "}
                 </span>
               </div>
               <div className="h-full w-full border-b-[1px] border-b-[#fff]" />
 
               <div className="flex w-full flex-row gap-4 md:w-[400px] md:justify-between">
-                <span className="font-poppins text-sm font-[700] uppercase tracking-[1.96px] text-[#fff]">
+                <span className="font-cinzel text-sm font-[700] uppercase tracking-[1.96px] text-[#fff]">
                   Friday - Saturday{" "}
                 </span>
-                <span className="font-poppins text-sm font-[700] uppercase tracking-[1.96px] text-[#fff]">
+                <span className="font-cinzel text-sm font-[700] uppercase tracking-[1.96px] text-[#fff]">
                   12 AM - 10:30 PM{" "}
                 </span>
               </div>
               <div className="h-full w-full border-b-[1px] border-b-[#fff]" />
 
               <div className="flex w-full flex-row gap-4 md:w-[400px] md:justify-between">
-                <span className="font-poppins text-sm font-[700] uppercase tracking-[1.96px] text-[#fff]">
+                <span className="font-cinzel text-sm font-[700] uppercase tracking-[1.96px] text-[#fff]">
                   Sunday{" "}
                 </span>
-                <span className="font-poppins text-sm font-[700] uppercase tracking-[1.96px] text-[#fff]">
+                <span className="font-cinzel text-sm font-[700] uppercase tracking-[1.96px] text-[#fff]">
                   12 AM - 10 PM{" "}
                 </span>
               </div>
@@ -165,11 +165,11 @@ const Footer = ({}) => {
           <div className="h-full w-full border-b-[1px] border-b-[#fff]" />
           <div className="flex flex-col items-center justify-center gap-1 md:flex-row md:items-start md:justify-between">
             <Link href={"https://foodo.ai/"} target="_blank">
-              <span className="font-open_sans pb-6 text-xs font-[400] lowercase tracking-[1px] text-[#fff]">
+              <span className="pb-6 font-cinzel text-xs font-[400] lowercase tracking-[1px] text-[#fff]">
                 Powerd by fodo{" "}
               </span>
             </Link>
-            <p className="font-open_sans pb-6 text-xs font-[400] lowercase tracking-[1px] text-[#fff]">
+            <p className="pb-6 font-cinzel text-xs font-[400] lowercase tracking-[1px] text-[#fff]">
               © 2024 lavent ALL RIGHTS RESERVED
             </p>
           </div>

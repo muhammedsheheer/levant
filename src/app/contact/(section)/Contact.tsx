@@ -78,7 +78,7 @@ const Contact = ({}) => {
               {/* <p className="font-bai text-lg leading-[4px] text-[#A8B40A]">
                 Contact Us
               </p> */}
-              <h1 className="font-forum text-4xl font-medium uppercase leading-[50px] tracking-[5px] text-[#A8B40A] lg:text-5xl">
+              <h1 className="font-cinzel text-4xl font-medium uppercase leading-[50px] tracking-[5px] text-[#A8B40A] lg:text-5xl">
                 Get in
                 <br /> Touch
               </h1>
@@ -87,20 +87,20 @@ const Contact = ({}) => {
               <div className="flex gap-6">
                 <div>
                   <div className="h-fit w-fit rounded-full p-2">
-                    <MapPin className="text-[#fff]" />
+                    <MapPin className="font-cinzel text-[#fff]" />
                   </div>
                 </div>
                 <div className="flex flex-col gap-4">
                   <Link href={"https://g.co/kgs/kfvqUBt"} target="_blank">
-                    <p className="text-[#fff]">
+                    <p className="font-cinzel text-[#fff]">
                       9 Barlow Moor Rd, Didsbury, Manchester
                       <br /> M20 6TN, United Kingdom
                     </p>
                   </Link>
                   <Link href={"https://g.co/kgs/kfvqUBt"} target="_blank">
-                    <p className="flex items-center gap-2 text-sm text-[#fff]">
+                    <p className="flex items-center gap-2 font-cinzel text-sm text-[#fff]">
                       <span>Get Direction</span>
-                      <ArrowRight className="text-[#fff]" />
+                      <ArrowRight className="font-cinzel text-[#fff]" />
                     </p>
                   </Link>
                 </div>
@@ -118,11 +118,14 @@ const Contact = ({}) => {
               <div className="flex items-center gap-6">
                 <div>
                   <div className="h-fit w-fit rounded-full p-2">
-                    <Phone className="text-[#fff]" />
+                    <Phone className="font-cinzel text-[#fff]" />
                   </div>
                 </div>
                 <div className="flex flex-col gap-4">
-                  <Link href="tel:+01614230494" className="text-[#fff]">
+                  <Link
+                    href="tel:+01614230494"
+                    className="font-cinzel text-[#fff]"
+                  >
                     0161 423 04 94{" "}
                   </Link>
                 </div>
@@ -132,7 +135,7 @@ const Contact = ({}) => {
                   href={"https://www.instagram.com/levantelixirofco/"}
                   target="_blank"
                 >
-                  <Icons.instagram className="text-[#fff]" />
+                  <Icons.instagram className="font-cinzel text-[#fff]" />
                 </Link>
                 <Link
                   href={
@@ -140,10 +143,10 @@ const Contact = ({}) => {
                   }
                   target="_blank"
                 >
-                  <Icons.unknown className="text-[#fff]" />
+                  <Icons.unknown className="font-cinzel text-[#fff]" />
                 </Link>
                 <Link href={"https://g.co/kgs/kfvqUBt"} target="_blank">
-                  <Icons.google className="text-[#fff]" />
+                  <Icons.google className="font-cinzel text-[#fff]" />
                 </Link>
                 {/* <Link href='https://www.facebook.com/Istanbulwoolton/'>
                   <Icons.facebook />
@@ -210,7 +213,7 @@ const Contact = ({}) => {
                         name="message"
                         render={({ field }) => (
                           <FormItem className="w-full">
-                            <FormLabel className="text-[#fff]">
+                            <FormLabel className="font-cinzel text-[#fff]">
                               Reason for contacting (optional)
                             </FormLabel>
                             <FormControl>
@@ -228,7 +231,7 @@ const Contact = ({}) => {
                   </div>
                   <div className="flex w-full flex-col pt-7 lg:flex-row">
                     <Button
-                      className="font-bai w-full rounded-2xl bg-[#A8B40A] py-6 text-white hover:bg-[#7bad4a] hover:text-[#fff]"
+                      className="font-bai w-full rounded-2xl bg-[#A8B40A] py-6 font-cinzel text-white hover:bg-[#7bad4a] hover:text-[#fff]"
                       disabled={bookTableMutation.isPending}
                     >
                       Contact US

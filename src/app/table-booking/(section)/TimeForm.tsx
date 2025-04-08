@@ -145,10 +145,10 @@ const TimeForm: FC<TimeFormProps> = ({ mainform, setpage }) => {
 
   return (
     <div className="flex w-full flex-col items-center justify-center gap-3">
-      <p className="text-3xl font-semibold text-[#A8B40A]">
+      <p className="font-cinzel text-3xl font-semibold text-[#A8B40A]">
         Request a reservation
       </p>
-      <p className="text-[#fff]">
+      <p className="font-cinzel text-[#fff]">
         Select your details and we`ll try get the best seats for you
       </p>
       <Form {...form}>
@@ -162,13 +162,15 @@ const TimeForm: FC<TimeFormProps> = ({ mainform, setpage }) => {
               name="guests"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel className="text-[#fff]">No of Guests</FormLabel>
+                  <FormLabel className="font-cinzel text-[#fff]">
+                    No of Guests
+                  </FormLabel>
                   <Select
                     onValueChange={field.onChange}
                     defaultValue={field.value}
                   >
                     <FormControl>
-                      <SelectTrigger className="h-12 border-[#A8B40A] bg-transparent text-[#fff]">
+                      <SelectTrigger className="h-12 border-[#A8B40A] bg-transparent font-cinzel text-[#fff]">
                         <SelectValue placeholder="Select guests" />
                       </SelectTrigger>
                     </FormControl>
@@ -177,7 +179,7 @@ const TimeForm: FC<TimeFormProps> = ({ mainform, setpage }) => {
                         <SelectItem
                           key={num}
                           value={num.toString()}
-                          className="text-[#fff]"
+                          className="font-cinzel text-[#fff]"
                         >
                           {num} {num === 1 ? "Guest" : "Guests"}
                         </SelectItem>
@@ -194,19 +196,23 @@ const TimeForm: FC<TimeFormProps> = ({ mainform, setpage }) => {
               name="date"
               render={({ field }) => (
                 <FormItem className="">
-                  <FormLabel className="text-[#fff]">Date</FormLabel>
+                  <FormLabel className="font-cinzel text-[#fff]">
+                    Date
+                  </FormLabel>
                   <Popover open={isPopoverOpen} onOpenChange={setIsPopoverOpen}>
                     <PopoverTrigger asChild>
                       <FormControl>
                         <Button
                           variant={"outline"}
-                          className={`h-12 w-full justify-start border-[#A8B40A] bg-transparent text-left font-normal text-[#fff] hover:text-[#fff]`}
+                          className={`h-12 w-full justify-start border-[#A8B40A] bg-transparent text-left font-cinzel font-normal text-[#fff] hover:text-[#fff]`}
                         >
-                          <CalendarIcon className="mr-2 h-4 w-4 text-[#fff]" />
+                          <CalendarIcon className="mr-2 h-4 w-4 font-cinzel text-[#fff]" />
                           {field.value ? (
                             format(field.value, "PPP")
                           ) : (
-                            <span className="text-[#fff]">Pick a date</span>
+                            <span className="font-cinzel text-[#fff]">
+                              Pick a date
+                            </span>
                           )}
                         </Button>
                       </FormControl>
@@ -237,13 +243,15 @@ const TimeForm: FC<TimeFormProps> = ({ mainform, setpage }) => {
                 name="time"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel className="text-[#fff]">Time</FormLabel>
+                    <FormLabel className="font-cinzel text-[#fff]">
+                      Time
+                    </FormLabel>
                     <Select
                       onValueChange={field.onChange}
                       defaultValue={field.value}
                     >
                       <FormControl>
-                        <SelectTrigger className="h-12 border-[#A8B40A] bg-transparent text-[#fff]">
+                        <SelectTrigger className="h-12 border-[#A8B40A] bg-transparent font-cinzel text-[#fff]">
                           <SelectValue
                             placeholder={
                               form.watch("time")
@@ -256,7 +264,7 @@ const TimeForm: FC<TimeFormProps> = ({ mainform, setpage }) => {
                       <SelectContent className="max-h-[300px]">
                         {generateTimeSlots().map((time) => (
                           <SelectItem
-                            className="text-[#fff]"
+                            className="font-cinzel text-[#fff]"
                             key={time}
                             value={time}
                           >
@@ -275,14 +283,16 @@ const TimeForm: FC<TimeFormProps> = ({ mainform, setpage }) => {
           </div>
           {form.watch("date") && (
             <div className="flex w-full flex-col gap-4 py-12">
-              <p className="text-[#fff]">Choose an available time slot:</p>
+              <p className="font-cinzel text-[#fff]">
+                Choose an available time slot:
+              </p>
               <div className="custom-scrollbar grid h-[250px] grid-cols-2 gap-6 overflow-y-scroll md:grid-cols-4 lg:grid-cols-5">
                 {generateTimeSlots().map((time) => (
                   <div
                     key={time}
                     onClick={() => form.setValue("time", time)}
                     className={cn(
-                      "flex h-full w-full cursor-pointer items-center justify-center border-[1px] border-[#A8B40A] py-4 text-[#fff]",
+                      "flex h-full w-full cursor-pointer items-center justify-center border-[1px] border-[#A8B40A] py-4 font-cinzel text-[#fff]",
                       form.watch("time") === time && "border-[#7bad4a]",
                     )}
                   >
@@ -293,7 +303,7 @@ const TimeForm: FC<TimeFormProps> = ({ mainform, setpage }) => {
             </div>
           )}
           <Button
-            className="w-fit bg-[#A8B40A] px-6 py-6 text-[#fff] hover:bg-[#7bad4a]"
+            className="w-fit bg-[#A8B40A] px-6 py-6 font-cinzel text-[#fff] hover:bg-[#7bad4a]"
             disabled={disable}
           >
             Book A Table

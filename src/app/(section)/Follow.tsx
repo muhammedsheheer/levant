@@ -43,10 +43,10 @@ const Follow: React.FC = () => {
             </div>
             <div className="relative flex w-full flex-col items-center justify-center gap-2 bg-[#A8B40A] py-8 md:w-[35%] md:py-0">
               <div className="-gap-2 flex flex-col">
-                <h1 className="font-playfair text-7xl font-[500] uppercase text-[#fff] md:text-[150px] md:tracking-[-10px]">
+                <h1 className="font-cinzel text-5xl font-[500] uppercase text-[#fff] md:text-[120px] md:tracking-[-10px]">
                   Follow
                 </h1>
-                <h1 className="font-playfair text-7xl font-[500] uppercase text-[#fff] md:-mt-6 md:text-9xl md:tracking-[-10px]">
+                <h1 className="font-cinzel text-5xl font-[500] uppercase text-[#fff] md:-mt-6 md:text-9xl md:tracking-[-10px]">
                   Us
                 </h1>
               </div>
@@ -54,7 +54,7 @@ const Follow: React.FC = () => {
                 href={"https://www.instagram.com/levantelixirofco/"}
                 target="_blank"
               >
-                <h1 className="font-playfair text-4xl font-[500] uppercase text-[#fff] md:text-6xl md:tracking-[-5px]">
+                <h1 className="font-cinzel text-3xl font-[500] uppercase text-[#fff] md:text-5xl md:tracking-[-5px]">
                   @levantelixirofco
                 </h1>
               </Link>

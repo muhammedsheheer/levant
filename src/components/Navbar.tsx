@@ -54,34 +54,34 @@ const Navbar = ({
           <div className="flex flex-row items-center justify-center gap-20">
             <Link
               href={"/"}
-              className={
-                "text-center font-manrope text-xs font-[600] uppercase tracking-[0.96px] text-[#fff]"
-              }
+              className={`text-center font-cinzel text-xs font-[600] uppercase tracking-[0.96px] ${
+                pathname === "/menu" ? "text-[#000]" : "text-[#fff]"
+              }`}
             >
               Home
             </Link>
             <Link
               href={"/table-booking"}
-              className={
-                "text-center font-manrope text-xs font-[600] uppercase tracking-[0.96px] text-[#fff]"
-              }
+              className={`text-center font-cinzel text-xs font-[600] uppercase tracking-[0.96px] ${
+                pathname === "/menu" ? "text-[#000]" : "text-[#fff]"
+              }`}
             >
               Booking
             </Link>
             <Link
               href={"/about-us"}
-              className={
-                "text-center font-manrope text-xs font-[600] uppercase tracking-[0.96px] text-[#fff]"
-              }
+              className={`text-center font-cinzel text-xs font-[600] uppercase tracking-[0.96px] ${
+                pathname === "/menu" ? "text-[#000]" : "text-[#fff]"
+              }`}
             >
               Our Story
             </Link>
 
             <Link
               href={"/contact"}
-              className={
-                "text-center font-manrope text-xs font-[600] uppercase tracking-[0.96px] text-[#fff]"
-              }
+              className={`text-center font-cinzel text-xs font-[600] uppercase tracking-[0.96px] ${
+                pathname === "/menu" ? "text-[#000]" : "text-[#fff]"
+              }`}
             >
               Contact
             </Link>
@@ -89,7 +89,7 @@ const Navbar = ({
               <Link href={"/menu"}>
                 <Button
                   className={
-                    "rounded-none border border-[#A8B40A] bg-[#A8B40A] px-8 py-6 font-poppins text-sm font-[500] uppercase text-[#fff] hover:bg-[#638D39] hover:text-[#fff]"
+                    "rounded-none border border-[#A8B40A] bg-[#A8B40A] px-8 py-6 font-cinzel text-sm font-[500] uppercase text-[#fff] hover:bg-[#638D39] hover:text-[#fff]"
                   }
                 >
                   View Menu

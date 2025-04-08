@@ -85,7 +85,7 @@ const Reviews = ({}) => {
         <div className="flex h-full w-full flex-col items-center justify-center gap-2 lg:gap-4">
           <div className="flex flex-col items-center justify-center gap-2 md:pb-6">
             <h6
-              className="text-center font-playfair text-5xl font-[400] uppercase text-white md:text-7xl md:tracking-[-2px]"
+              className="text-center font-cinzel text-5xl font-[400] uppercase text-white md:text-7xl md:tracking-[-2px]"
               // style={{
               //   background: "linear-gradient(180deg, #E7F714 0%, #303129 125%)",
               //   backgroundClip: "text",

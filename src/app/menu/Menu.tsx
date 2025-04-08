@@ -13,6 +13,7 @@ import { isRestaurantOpen } from "@/lib/is-restaurant-open";
 import { cn } from "@/lib/utils";
 import type { MenuItem as MenuItemType } from "@/types/menu";
 import { format } from "date-fns";
+import { ArrowLeft } from "lucide-react";
 import {
   CircleMinus,
   CirclePlus,
@@ -243,6 +244,13 @@ export default function Menu() {
                 <DeliveryCheck setOrderType={setOrderType} />
             )} */}
       <div className="flex w-full flex-col gap-4 md:w-4/6">
+        <button
+          onClick={() => router.back()}
+          className="flex items-center gap-2 rounded bg-transparent px-3 py-2 font-medium text-[#000] hover:text-primary"
+        >
+          <ArrowLeft className="h-5 w-5" />
+          <span>Back</span>
+        </button>
         <div
           className="relative hidden h-[30vh] w-full bg-black md:flex"
           style={{
@@ -308,7 +316,7 @@ export default function Menu() {
                 >
                   <h2
                     className={cn(
-                      "pb-4 text-2xl font-bold text-menuprimary",
+                      "pb-4 text-2xl font-bold text-[#000]",
                       category.items.length === 0 && "hidden pb-0",
                     )}
                   >
