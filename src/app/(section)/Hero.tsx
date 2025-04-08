@@ -1,7 +1,17 @@
+"use client";
 import Image from "next/image";
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const Hero: React.FC = () => {
+  const [showImage, setShowImage] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowImage(false);
+    }, 2000);
+
+    return () => clearTimeout(timer);
+  }, []);
   return (
     <section className="relative h-screen w-full overflow-hidden">
       <video
@@ -23,6 +33,17 @@ const Hero: React.FC = () => {
           className="h-[300px] w-[300px] md:h-[450px] md:w-[450px]"
         />
       </div> */}
+      <div className="relative mt-8 flex h-full w-full items-center justify-center md:mt-12">
+        {showImage && (
+          <Image
+            src="/images/home/hero/logob.png"
+            width={281}
+            height={74}
+            alt="logo"
+            className="h-[300px] w-[300px] md:h-[450px] md:w-[450px]"
+          />
+        )}
+      </div>
     </section>
   );
 };

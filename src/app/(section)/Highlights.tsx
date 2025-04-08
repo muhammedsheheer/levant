@@ -9,13 +9,13 @@ const Highlights: React.FC = () => {
       <div className="flex h-full w-full flex-col items-center justify-center gap-6 md:items-end md:gap-10">
         <div className="flex flex-col items-center justify-center gap-4 md:mr-32 md:flex-row md:gap-32">
           <h6
-            className="text-center font-playfair text-5xl font-[400] uppercase md:mb-8 md:text-7xl md:tracking-[-1px]"
-            style={{
-              background: "linear-gradient(180deg, #E7F714 0%, #303129 100%)",
-              backgroundClip: "text",
-              WebkitBackgroundClip: "text",
-              WebkitTextFillColor: "transparent",
-            }}
+            className="text-center font-playfair text-5xl font-[400] uppercase text-[#fff] md:mb-8 md:text-7xl md:tracking-[-1px]"
+            // style={{
+            //   background: "linear-gradient(180deg, #E7F714 0%, #303129 100%)",
+            //   backgroundClip: "text",
+            //   WebkitBackgroundClip: "text",
+            //   WebkitTextFillColor: "transparent",
+            // }}
           >
             lEVANT highlights{" "}
           </h6>
@@ -40,7 +40,7 @@ const Highlights: React.FC = () => {
                 className="h-auto w-full rounded-t-full md:h-full"
               />
             </div>
-            <h6 className="text-center font-playfair text-2xl font-[500] uppercase text-[#A8B40A] md:text-3xl md:tracking-[-1px]">
+            <h6 className="text-center font-playfair text-2xl font-[500] uppercase text-[#fff] md:text-3xl md:tracking-[-1px]">
               Atmosphere
             </h6>
           </div>
@@ -54,7 +54,7 @@ const Highlights: React.FC = () => {
                 className="h-auto w-full rounded-t-full md:h-full"
               />
             </div>
-            <h6 className="text-center font-playfair text-2xl font-[500] uppercase text-[#A8B40A] md:text-3xl md:tracking-[-1px]">
+            <h6 className="text-center font-playfair text-2xl font-[500] uppercase text-[#fff] md:text-3xl md:tracking-[-1px]">
               food
             </h6>
           </div>
@@ -68,7 +68,7 @@ const Highlights: React.FC = () => {
                 className="h-auto w-full rounded-t-full md:h-full"
               />
             </div>
-            <h6 className="text-center font-playfair text-2xl font-[500] uppercase text-[#A8B40A] md:text-3xl md:tracking-[-1px]">
+            <h6 className="text-center font-playfair text-2xl font-[500] uppercase text-[#fff] md:text-3xl md:tracking-[-1px]">
               drinks
             </h6>
           </div>

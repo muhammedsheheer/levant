@@ -11,7 +11,7 @@ const page = ({}) => {
       <div className="flex h-full w-full flex-col items-center justify-center bg-[#000]">
         <Navbar position="absolute" />
         <Hero />
-        <BavetteStory />
+        {/* <BavetteStory /> */}
         <JoinUs />
         <Review />
         <Footer />

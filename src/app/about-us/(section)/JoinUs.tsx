@@ -11,14 +11,15 @@ const JoinUs = ({}) => {
         backgroundSize: "cover",
       }}
     >
-      <div className="flex h-full w-full flex-col-reverse items-center justify-center gap-4 md:flex-row">
-        <div className="flex h-full w-full flex-col items-center justify-center gap-[2.5rem] p-6">
-          <h1 className="font-oswald max-w-[500px] text-center text-5xl leading-[60px] text-[#fff]">
+      <div className="relative flex h-full w-full flex-col-reverse items-center justify-center gap-4 md:flex-row">
+        <div className="absolute inset-0 bg-black/60"></div>
+        <div className="relative z-10 flex h-full w-full flex-col items-center justify-center gap-[2.5rem] p-6">
+          <h1 className="max-w-[500px] text-center font-cinzel text-5xl leading-[60px] text-[#fff]">
             Join Us for an
             <br />
             Unforgettable Feast
           </h1>
-          <p className="max-w-[450px] text-center font-[600] leading-[160%] text-[#ffff]">
+          <p className="max-w-[450px] text-center font-cinzel font-[600] leading-[160%] text-[#ffff]">
             Whether it`s a cozy dinner or a grand gathering, Levant invites you
             to embark on an extraordinary culinary journey. From authentic
             Middle Eastern flavors to hand-selected ingredients, every dish is a

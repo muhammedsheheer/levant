@@ -74,7 +74,7 @@ const Navbar = ({
                 "text-center font-manrope text-xs font-[600] uppercase tracking-[0.96px] text-[#fff]"
               }
             >
-              About
+              Our Story
             </Link>
 
             <Link
