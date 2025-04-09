@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowImage(false);
-    }, 2000);
+    }, 9000);
 
     return () => clearTimeout(timer);
   }, []);
