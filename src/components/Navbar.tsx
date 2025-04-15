@@ -55,7 +55,7 @@ const Navbar = ({
             <Link
               href={"/"}
               className={`text-center font-cinzel text-xs font-[600] uppercase tracking-[0.96px] ${
-                pathname === "/menu" ? "text-[#000]" : "text-[#fff]"
+                pathname === "/menu" ? "text-[#fff]" : "text-[#fff]"
               }`}
             >
               Home
@@ -63,7 +63,7 @@ const Navbar = ({
             <Link
               href={"/table-booking"}
               className={`text-center font-cinzel text-xs font-[600] uppercase tracking-[0.96px] ${
-                pathname === "/menu" ? "text-[#000]" : "text-[#fff]"
+                pathname === "/menu" ? "text-[#fff]" : "text-[#fff]"
               }`}
             >
               Booking
@@ -71,7 +71,7 @@ const Navbar = ({
             <Link
               href={"/about-us"}
               className={`text-center font-cinzel text-xs font-[600] uppercase tracking-[0.96px] ${
-                pathname === "/menu" ? "text-[#000]" : "text-[#fff]"
+                pathname === "/menu" ? "text-[#fff]" : "text-[#fff]"
               }`}
             >
               Our Story
@@ -80,7 +80,7 @@ const Navbar = ({
             <Link
               href={"/contact"}
               className={`text-center font-cinzel text-xs font-[600] uppercase tracking-[0.96px] ${
-                pathname === "/menu" ? "text-[#000]" : "text-[#fff]"
+                pathname === "/menu" ? "text-[#fff]" : "text-[#fff]"
               }`}
             >
               Contact

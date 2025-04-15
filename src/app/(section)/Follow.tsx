@@ -54,7 +54,7 @@ const Follow: React.FC = () => {
                 href={"https://www.instagram.com/levantelixirofco/"}
                 target="_blank"
               >
-                <h1 className="font-cinzel text-3xl font-[500] uppercase text-[#fff] md:text-5xl md:tracking-[-5px]">
+                <h1 className="font-playfair text-3xl font-[500] uppercase text-[#fff] md:text-5xl md:tracking-[-5px]">
                   @levantelixirofco
                 </h1>
               </Link>

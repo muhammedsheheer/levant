@@ -79,7 +79,7 @@ const Hero: React.FC = () => {
         loop
         muted
         playsInline
-        src="/videos/bg.mp4"
+        src="https://d8q1b3smcycac.cloudfront.net/levant/levant-hero.mp4"
         poster="/images/levant.png"
       />
       <div className="absolute inset-0 bg-[rgba(0,0,0,0.43)]" />

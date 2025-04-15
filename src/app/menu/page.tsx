@@ -4,7 +4,7 @@ import Navbar from "@/components/Navbar";
 
 export default function MenuPage() {
   return (
-    <section className="flex w-full flex-col items-center justify-start bg-[url('/images/about-us/bg.png')]">
+    <section className="bg- bg-menubg flex w-full flex-col items-center justify-start bg-menubackground">
       <div className="hidden w-full justify-center md:flex">
         <Navbar position="static" />
       </div>
