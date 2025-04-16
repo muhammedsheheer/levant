@@ -40,11 +40,14 @@ const Reserve: React.FC = () => {
   });
 
   useEffect(() => {
-    if (inView) {
-      controls.start("visible");
-    } else {
-      controls.start("hidden");
-    }
+    const animate = async () => {
+      if (inView) {
+        await controls.start("visible");
+      } else {
+        await controls.start("hidden");
+      }
+    };
+    void animate();
   }, [controls, inView]);
 
   return (
