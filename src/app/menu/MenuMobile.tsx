@@ -233,7 +233,7 @@ export default function MenuMobile() {
               onClick={() => router.back()}
               className="p-0 text-menusecondary"
             >
-              <ArrowLeft />
+              <ArrowLeft className="text-white" />
             </div>
             <Image
               src="/images/logo.png"
@@ -246,7 +246,7 @@ export default function MenuMobile() {
               onClick={() => setShowSearch((prev) => !prev)}
               className="text-menusecondary"
             >
-              <Search />
+              <Search className="text-white" />
             </div>
           </div>
           {showSearch && (
