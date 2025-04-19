@@ -38,7 +38,7 @@ const Navbar = ({
       )}
     >
       {/*big screen */}
-      <div className="hidden px-4 md:block md:px-12">
+      <div className="hidden px-4 md:block md:px-8">
         <div className="flex flex-row items-center justify-between">
           <div>
             <Link href={"/"}>
@@ -51,7 +51,7 @@ const Navbar = ({
               />
             </Link>
           </div>
-          <div className="flex flex-row items-center justify-center gap-20">
+          <div className="flex flex-row items-center justify-center gap-14">
             <Link
               href={"/"}
               className={`text-center font-cinzel text-xs font-[600] uppercase tracking-[0.96px] ${
@@ -59,6 +59,22 @@ const Navbar = ({
               }`}
             >
               Home
+            </Link>
+            <Link
+              href={"/pdf/menu-food.pdf"}
+              className={`text-center font-cinzel text-xs font-[600] uppercase tracking-[0.96px] ${
+                pathname === "/menu" ? "text-[#fff]" : "text-[#fff]"
+              }`}
+            >
+              Food_menu
+            </Link>
+            <Link
+              href={"/pdf/menu-drinks.pdf"}
+              className={`text-center font-cinzel text-xs font-[600] uppercase tracking-[0.96px] ${
+                pathname === "/menu" ? "text-[#fff]" : "text-[#fff]"
+              }`}
+            >
+              Drinks_menu
             </Link>
             <Link
               href={"/table-booking"}
@@ -85,17 +101,17 @@ const Navbar = ({
             >
               Contact
             </Link>
-            <div className="ml-52 mr-16">
-              <Link href={"/menu"}>
-                <Button
-                  className={
-                    "rounded-none border border-[#A8B40A] bg-[#A8B40A] px-8 py-6 font-cinzel text-sm font-[500] uppercase text-[#fff] hover:bg-[#638D39] hover:text-[#fff]"
-                  }
-                >
-                  View Menu
-                </Button>
-              </Link>
-            </div>
+          </div>
+          <div className="">
+            <Link href={"/menu"}>
+              <Button
+                className={
+                  "rounded-none border border-[#A8B40A] bg-[#A8B40A] px-8 py-6 font-cinzel text-sm font-[500] uppercase text-[#fff] hover:bg-[#638D39] hover:text-[#fff]"
+                }
+              >
+                View Menu
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
