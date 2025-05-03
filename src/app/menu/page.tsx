@@ -4,14 +4,14 @@ import Navbar from "@/components/Navbar";
 
 export default function MenuPage() {
   return (
-    <section className="bg- bg-menubg flex w-full flex-col items-center justify-start bg-menubackground">
+    <section className="bg-menubg flex w-full flex-col items-center justify-start bg-menubackground">
       <div className="hidden w-full justify-center md:flex">
         <Navbar position="static" />
       </div>
-      <div className="hidden w-full items-center justify-center md:flex">
+      <div className="hidden w-full items-center justify-center bg-[url('/images/home/hero/bg.png')] bg-cover bg-center bg-no-repeat md:flex">
         <Menu />
       </div>
-      <div className="flex w-full items-center justify-center md:hidden">
+      <div className="flex w-full items-center justify-center bg-[url('/images/home/hero/bg.png')] bg-cover bg-center md:hidden">
         <MenuMobile />
       </div>
     </section>
