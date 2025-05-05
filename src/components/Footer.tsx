@@ -238,7 +238,7 @@ const Footer = ({}) => {
                   Sunday{" "}
                 </span>
                 <span className="font-cinzel text-sm font-[700] uppercase tracking-[1.96px] text-[#fff]">
-                  12 AM - 10 PM{" "}
+                  Closed
                 </span>
               </div>
             </div>

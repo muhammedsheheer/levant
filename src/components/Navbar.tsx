@@ -62,6 +62,7 @@ const Navbar = ({
             </Link>
             <Link
               href={"/pdf/menu-food.pdf"}
+              target="_blank"
               className={`text-center font-cinzel text-xs font-[600] uppercase tracking-[0.96px] ${
                 pathname === "/menu" ? "text-[#fff]" : "text-[#fff]"
               }`}
@@ -70,6 +71,7 @@ const Navbar = ({
             </Link>
             <Link
               href={"/pdf/menu-drinks.pdf"}
+              target="_blank"
               className={`text-center font-cinzel text-xs font-[600] uppercase tracking-[0.96px] ${
                 pathname === "/menu" ? "text-[#fff]" : "text-[#fff]"
               }`}
