@@ -148,7 +148,7 @@ const CustomerDetails: FC<CustomerDetailsProps> = ({
                 </FormControl>
                 <SelectContent className="max-h-[300px] font-cinzel text-[#fff]">
                   <SelectItem value="Terrace">Terrace</SelectItem>
-                  <SelectItem value="Restaurent">Restaurent</SelectItem>
+                  <SelectItem value="Restaurent">Restaurant</SelectItem>
                 </SelectContent>
               </Select>
               <FormMessage />
