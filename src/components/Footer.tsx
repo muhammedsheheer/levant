@@ -212,7 +212,14 @@ const Footer = ({}) => {
             </h6>
             <div className="flex flex-col items-center gap-4 md:items-start md:gap-6">
               <div className="h-full w-full border-b-[1px] border-b-[#fff]" />
-
+              <div className="flex w-full flex-row gap-4 md:w-[400px] md:justify-between">
+                <span className="font-cinzel text-sm font-[700] uppercase tracking-[1.96px] text-[#fff]">
+                  Monday{" "}
+                </span>
+                <span className="font-cinzel text-sm font-[700] uppercase tracking-[1.96px] text-[#fff]">
+                  Closed
+                </span>
+              </div>
               <div className="flex w-full flex-row gap-4 md:w-[400px] md:justify-between">
                 <span className="font-cinzel text-sm font-[700] uppercase tracking-[1.96px] text-[#fff]">
                   tuesday - Thursday{" "}
