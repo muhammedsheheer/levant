@@ -220,6 +220,7 @@ const Footer = ({}) => {
                   Closed
                 </span>
               </div>
+              <div className="h-full w-full border-b-[1px] border-b-[#fff]" />
               <div className="flex w-full flex-row gap-4 md:w-[400px] md:justify-between">
                 <span className="font-cinzel text-sm font-[700] uppercase tracking-[1.96px] text-[#fff]">
                   tuesday - Thursday{" "}
