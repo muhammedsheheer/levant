@@ -226,7 +226,7 @@ const Footer = ({}) => {
                   tuesday - Thursday{" "}
                 </span>
                 <span className="font-cinzel text-sm font-[700] uppercase tracking-[1.96px] text-[#fff]">
-                  12 AM - 10 PM{" "}
+                  12 PM - 10 PM{" "}
                 </span>
               </div>
               <div className="h-full w-full border-b-[1px] border-b-[#fff]" />
@@ -236,7 +236,7 @@ const Footer = ({}) => {
                   Friday - Saturday{" "}
                 </span>
                 <span className="font-cinzel text-sm font-[700] uppercase tracking-[1.96px] text-[#fff]">
-                  12 AM - 10:30 PM{" "}
+                  12 PM - 10:30 PM{" "}
                 </span>
               </div>
               <div className="h-full w-full border-b-[1px] border-b-[#fff]" />
